@@ -3,7 +3,6 @@
 ## Project Overview
 This project aims to predict the popularity of Netflix movies and TV shows *before* their release using machine learning techniques. By analyzing pre-release metadata such as genre, director, cast, budget, and textual descriptions, the model classifies content into "popular" or "not popular" categories. This provides a valuable tool for content acquisition, production, and marketing strategy.
 
-**Team:** Arya Mehta, Jane Heng, Prajwal Dambalkar, Vedika Sumbli
 
 ## Table of Contents
 1.  [Problem Statement](#problem-statement)
@@ -157,7 +156,7 @@ The Random Forest model achieved:
 
 
 ## 10. Future Work
-*(Based on your "NetflixPopularity_Group4-2.pdf" report)*
+
 * **Advanced NLP:** Explore show description embeddings (e.g., Word2Vec, BERT), genre keyword deeper analysis, and sentiment analysis from related news/social media (if pre-release signals can be found).
 * **Model Improvements:** Experiment with other ensemble methods (e.g., XGBoost, LightGBM), conduct extensive hyperparameter tuning with cross-validation.
 * **Advanced Feature Engineering:** Incorporate temporal trends more explicitly (e.g., seasonality effects beyond just 'release_season'), analyze content similarity clustering.
