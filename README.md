@@ -47,7 +47,7 @@ In the competitive streaming market, predicting the potential success of content
 * **Exploratory Data Analysis:** Visualized content type trends, genre distributions, and relationships between variables (detailed in project reports).
 
 ### Feature Engineering
-*(Implemented in `preproc&eda.ipynb` and `feature_engineering.py`)*
+
 * **Text-Based Features:**
     * `title_length`, `word_count` (from title).
     * **NLP on `description`:** Tokenization, stop-word removal (NLTK's `stopwords`, `punkt`), stemming (Porter Stemmer).
@@ -65,7 +65,7 @@ In the competitive streaming market, predicting the potential success of content
     * **`genre_trend_score`:** Relative popularity of genres over time.
     * **`release_season_score`:** Categorization based on release timing.
 
-### Model Development & Evaluation (`Final_ML_Model.py`)
+### Model Development & Evaluation 
 * **Target Variable Definition:**
     * A custom **`popularity_score`** was created as a weighted combination of key pre-release features (e.g., `budget_filled`, `director_success_rating`, `cast_popularity_score`).
     * This `popularity_score` was then used to define a binary target variable **`is_popular`**: shows were labeled "popular" (top 40th percentile of the custom score) or "not popular" (bottom 60th percentile).
@@ -86,7 +86,7 @@ In the competitive streaming market, predicting the potential success of content
 * `genre_trend_score`, `release_season_score`, `age_group`.
 
 ## 6. Model Performance
-*(Summarize your key model performance metrics here from your reports. Example below, replace with your actuals)*
+
 The Random Forest model achieved:
 * **Accuracy:** [e.g., 75%]
 * **Precision (Popular):** [e.g., 0.60]
@@ -96,7 +96,7 @@ The Random Forest model achieved:
 * The model demonstrated strong performance in identifying shows likely to be "not popular" (e.g., 92% accuracy for "not popular" class as per `NetflixPopularity_Group4-2.pdf`) and provided a baseline for predicting "popular" shows using only pre-release data.
 
 ## 7. Feature Importance
-*(List top 5-10 features from your Random Forest model as shown in `Final_ML_Model.py` output or reports. Example below)*
+*(List top 5-10 features from  Random Forest model 
 1.  `cast_popularity_score`
 2.  `budget_filled`
 3.  `director_success_rating`
