@@ -3,8 +3,6 @@
 ## Project Overview
 This project, "Identifying Potential for High IMDb Ratings in Netflix Shows using Pre-release Features," develops a machine learning model to forecast the success of Netflix content *prior* to its release. By analyzing exclusively pre-release metadata—such as production budget, director's historical success, cast reputation, genre trends, and textual descriptions—the model classifies content into "popular" or "not popular" categories. This initiative aims to provide an empirical, data-driven tool for production companies and Netflix to make informed investment and content strategy decisions, moving beyond traditional post-launch evaluation metrics.
 
-**Team (Original Academic Project):** Arya Mehta (018292885), Jane Heng (018321914), Prajwal Dambalkar (018318196), Vedika Sumbli (018305937) *(Note: This project is showcased here as an individual's portfolio piece, highlighting their contributions to the overall group effort in an academic setting.)*
-
 ## Table of Contents
 1.  [Problem Statement](#problem-statement)
 2.  [Project Scope](#project-scope)
@@ -99,7 +97,12 @@ An interactive Power BI dashboard (`NetflixDashboard.pbix`) was developed to vis
     * **Content Distribution:** Bar charts for content by MPAA/TV rating and budget bins.
 * **Interactivity:** The dashboard includes slicers for "Show Type" and other dimensions to allow dynamic exploration of the data.
 
-*(Screenshot of Dashboard - Detailed Analysis Page - Placeholder)*
+<img width="1470" alt="image" src="https://github.com/user-attachments/assets/6a18e208-1069-4b10-b28e-a8952e78f683" />
+<img width="1470" alt="image" src="https://github.com/user-attachments/assets/02d44c9d-b7ab-4c09-acaa-5a234372fa72" />
+<img width="1470" alt="image" src="https://github.com/user-attachments/assets/6e64d1b1-ae26-43f3-ad26-651a01f881ee" />
+<img width="1470" alt="image" src="https://github.com/user-attachments/assets/cb93d979-8cc3-47d0-98be-db0b11cbde93" />
+
+
 
 ## 7. Model Performance
 The models were evaluated on a 20% held-out test set (n=397).
@@ -172,8 +175,6 @@ Notably, features often considered highly important, such as `production_company
     python feature_engineering.py
     python Final_ML_Model.py
     ```
-7.  **Power BI Dashboard:**
-    * To view the dashboard, open `NetflixDashboard.pbix` using Microsoft Power BI Desktop.
 
 ## 10. File Structure
 
